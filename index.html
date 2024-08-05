@@ -1,0 +1,178 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Business</title>
+   
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+ <style>
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 1000;
+        }
+    
+           body {
+            font-family: poppins, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:white;
+        }
+        header {
+            background-color:black;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            display:flex
+            align-items:left;
+            justify-content:left;
+            font- family= poppins, sans-serif;
+        }
+        header img{
+            width:100px;
+            height: auto;
+            margin right:300px;
+ } 
+       header h1{
+           font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin: 0;
+}
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            font:Edwardian scrip ITC;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img,{
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+        }
+        .gallery, .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .appointment-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .appointment-form input, .appointment-form textarea, .appointment-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .appointment-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img style="width:10%"; src="logo.JPG.jpg" alt="Tattoo Studio Logo">
+    
+
+
+    <h1>
+Welcome to Big Dad Tattoo Studio</h1>
+
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#videos">Videos</a>
+    <a href="#appointment">Book Appointment</a>
+</nav>
+
+<div class="container" id="about">
+    <h2>About Us</h2>
+    
+<P>Welcome to Big Dad Tattoo Studio, where art meets passion! At our studio, we pride ourselves on delivering unique and custom tattoo designs that speak to your individuality. Whether you're looking to get your first tattoo, add to your collection, or learn the art of tattooing, we've got you covered.</p>
+</div>
+<div class="container" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img style="width:20%;" src="tattoo.01.jpg" alt="Tattoo 1">
+        <img style="width:20%;" src="tattoo.02.jpg" alt="Tattoo 2">
+        <img style="width:20%;" src="tattoo.03.jpg" alt="Tattoo 3">
+        <img style="width:20%;" src="tattoo.04.jpg" alt="Tattoo 4">
+        <img style="width:20%;" src="tatto.05.jpg" alt="Tattoo 5">                           
+    </div>
+</div>
+
+<div class="container" id="videos">
+    <h2>Videos</h2>
+    <div class="videos">
+        <video width="20%" controls>
+            <source src="Whatsapp Video 1.mp4" type="video/mp4">
+            
+        </video>
+        <video width="20%" controls>
+            <source src="Whatsapp Video..mp4" type="video/mp4">
+           </video>
+<video width="20%" controls>
+            <source src="Whatsapp Video 2.mp4" type="video/mp4">
+          </video>
+<video width="20%" controls>
+            <source src="Whatsapp Video 3.mp4" type="video/mp4">
+            </video>
+<video width="20%" controls>
+            <source src="Whatsapp Video 4.mp4" type="video/mp4">
+            Your browser does not
+</video>
+<div class="container" id="appointment">
+    <h2>Book an Appointment</h2>
+    <form class="appointment-form" action="submit_appointment.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" placeholder="Describe your tattoo idea" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+        <p><strong>Address:</strong>Main Bazaar, near Taptej Singh Market,MOGA</p>
+        <p><strong>Phone:</strong>+91 8725869651</p>
+        <p><strong>Instagram:</strong>@ big_dad_tattoo </p>
+        <p><strong>Business Hours:</strong> Monday - Saturday: 10:00 AM - 8:00 PM</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tattoo Studio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
